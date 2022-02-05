@@ -4,7 +4,7 @@ Tip Calculator is a tip calculator application for iOS.
 
 Submitted by: **Sean Stevens**
 
-Time spent: **12** hours spent in total
+Time spent: **18** hours spent in total
 
 ## User Stories
 
@@ -16,26 +16,29 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 
 * [ ] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [x] Remembering the bill amount across app restarts (if <10mins)
+* [x] Using locale-specific currency and currency thousands separators.
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
 - [x] Implemented settings screen and added ability to set new default tip percentages.
+- [x] Added support for dark mode override
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/5UtCagT.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/u5nCWkBb8f.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [RecordIt](https://recordit.co/).
 
 ## Notes
 
 Swift and iOS development in general have steep learning curves. It took a while to understand how auto layout
 and other features work in XCode, but once I got the hang of it, the rest fell into place pretty easily.
+Many of the optional features were implemented on the last day to submit the prework, as I wanted to
+make my submission as complete and fully-featured as possible.
 
 ## License
 
