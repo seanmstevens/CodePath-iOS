@@ -12,13 +12,19 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 #### BONUS
 - [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
-- [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
+- [x] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="demo2.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
 ---
+Getting the required user stories done was a fairly simple task, as the walkthroughs are very thorough
+and any problems that I ran into as a result of using a newer iOS and XCode version were easy to remedy
+through Googling. The hardest part of the assignment was the the bonus user story for showing the trailer.
+I wanted to use Alamofire for making the API call, however their documentation is difficult to understand,
+so I just reused the same networking code we've been using. If I have time later on, I'll go back and
+refactor this project with better API call logic.
 
 ## Flix Part 1
 
