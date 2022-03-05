@@ -62,7 +62,7 @@ class MoviesViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let posterPath = movie["poster_path"] as! String
         let posterUrl = URL(string: baseUrl + posterPath)
         
-        cell.posterView.af.setImage(withURL: posterUrl!)
+        cell.posterView.af.setImage(withURL: posterUrl!, imageTransition: .crossDissolve(0.2))
         
         return cell
     }
