@@ -227,6 +227,7 @@
                                         <size key="customSize" width="128" height="193"/>
                                         <connections>
                                             <outlet property="posterView" destination="AXH-Qs-P10" id="pKP-LF-RsK"/>
+                                            <segue destination="NMj-tM-m61" kind="show" id="bN3-TN-1eP"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -272,6 +273,9 @@
             <point key="canvasLocation" x="669" y="-124"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="U7R-XA-es9"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="now_playing_tabbar_item" width="21" height="21"/>
         <image name="superhero_tabbar_item" width="21" height="23"/>
